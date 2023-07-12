@@ -1,0 +1,430 @@
+.portfolio1-container {
+  min-height: 100vh;
+}
+.portfolio1-portfolio1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.portfolio1-cates {
+  top: 32px;
+  left: 1100px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+}
+.portfolio1-cate {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 24px;
+  justify-content: center;
+}
+.portfolio1-text {
+  color: var(--dl-color-ref_neutral-neutral60);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.portfolio1-cate1 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 24px;
+  justify-content: center;
+}
+.portfolio1-text02 {
+  color: var(--dl-color-ref_neutral-neutral60);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.portfolio1-cate2 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  align-items: center;
+  border-color: rgba(9, 123, 122, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.portfolio1-text04 {
+  color: rgba(36, 45, 43, 1);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.portfolio1-p-o-r-t-f-o-l-i-o {
+  top: 352px;
+  left: 340px;
+  width: 966px;
+  height: 116px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.portfolio1-frame48096365 {
+  top: 111px;
+  left: 0;
+  width: 100%;
+  height: 801px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.portfolio1-rectangle4181 {
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  position: absolute;
+  border-color: rgba(48, 179, 170, 1);
+  border-style: solid;
+  border-width: 8px;
+}
+.portfolio1-monitor-x-d-r {
+  top: 0px;
+  left: 0px;
+  width: 769.7483520507812px;
+  height: 644px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-pro-display-x-d-r {
+  top: 0px;
+  left: 0px;
+  width: 769.7483520507812px;
+  height: 644px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-pro-display-x-d-r1 {
+  top: -10%;
+  left: 15%;
+  width: 70%;
+  position: absolute;
+  border-color: transparent;
+}
+.portfolio1-design {
+  top: -8%;
+  left: 18%;
+  width: 65%;
+  position: absolute;
+  border-color: transparent;
+}
+.portfolio1-text06 {
+  top: 20%;
+  right: 21%;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.portfolio1-frame48096375 {
+  top: 40%;
+  right:21%;
+  width: 259px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: transparent;
+  flex-direction: column;
+}
+.portfolio1-frame48096372 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 9px;
+}
+.portfolio1-text08 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.portfolio1-arrowright {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.portfolio1-vuesaxlineararrowright {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-arrowright1 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-vector {
+  top: 4.079999923706055px;
+  left: 8.90999984741211px;
+  width: 7px;
+  height: 16px;
+  position: absolute;
+}
+.portfolio1-frame48096373 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 9px;
+}
+.portfolio1-text10 {
+  color: rgba(199, 199, 199, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.portfolio1-arrowright2 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.portfolio1-vuesaxlineararrowright1 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-arrowright3 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-vector1 {
+  top: 4.079999923706055px;
+  left: 8.90999984741211px;
+  width: 7px;
+  height: 16px;
+  position: absolute;
+}
+.portfolio1-frame48096374 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.portfolio1-text12 {
+  color: rgba(148, 148, 148, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  font-stretch: normal;
+  margin-right: 16px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.portfolio1-arrowright4 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.portfolio1-vuesaxlineararrowright2 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-arrowright5 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.portfolio1-vector2 {
+  top: 4.079999923706055px;
+  left: 8.90999984741211px;
+  width: 7px;
+  height: 16px;
+  position: absolute;
+}
