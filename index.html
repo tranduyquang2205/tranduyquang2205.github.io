@@ -1,322 +1,396 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!DOCTYPE html>
+<html class="no-touch" lang="en"><head>
     <meta charset="utf-8">
-    <title>Trần Duy Quang</title>
+    <title>tranduyquang2205</title>
 
 	<!-- Meta Data -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="format-detection" content="telephone=no">
     <meta name="format-detection" content="address=no">
+    <meta name="author" content="ArtTemplate">
+    <meta name="description" content="vCard">
 
+    <!-- Twitter data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ArtTemplates">
+    <meta name="twitter:title" content="vCard">
+    <meta name="twitter:description" content="vCard">
+    <meta name="twitter:image" content="assets/images/social.jpg">
 
     <!-- Open Graph data -->
     <meta property="og:title" content="ArtTemplate">
     <meta property="og:type" content="website">
     <meta property="og:url" content="your url website">
     <meta property="og:image" content="assets/images/social.jpg">
-
+    <meta property="og:description" content="vCard">
+    <meta property="og:site_name" content="vCard">
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="144x144" href="assets\images\favicons\apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets\images\favicons\apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets\images\favicons\apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets\images\favicons\apple-touch-icon-57x57.png">
-	<link rel="shortcut icon" href="assets\img\cv.jpg" type="image/png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
 
     <!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="assets\styles\style.css">
-    <link rel="stylesheet" type="text/css" href="assets\demo\style-demo.css">
-
-	<!-- Mapbox-->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet'>
-
-</head>
-<body>
-    <!-- Preloader -->
-    <div class="preloader">
-	    <div class="preloader__wrap">
-		    <div class="circle-pulse">
-                <div class="circle-pulse__1"></div>
-                <div class="circle-pulse__2"></div>
-            </div>
-		    <div class="preloader__progress"><span></span></div>
-		</div>
-	</div>
-
+	<link rel="stylesheet" type="text/css" href="assets/styles/vendors/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/resume.css">
+	
+<style type="text/css">.medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}</style></head>
+<body class="bg-triangles" >
     <main class="main">
-	    <!-- Header Image -->
-		<div class="header-image">
-		    <div class="js-parallax" style="background-image: url(assets/img/image_header.jpg);"></div>
-		</div>
+		<!-- <div class="nav-container">
+			<ul class="nav">
+				<li class="nav__item"><a href="index.html">Home</a></li>
+				<li class="nav__item"><a class="active" href="resume.html">Resumé</a></li>
+				<li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+			</ul>
+		</div> -->
+	    <div class="container gutter-top gutter-bottom">
+		    <div class="row sticky-parent" style="position: relative;">
+			    <!-- Sidebar -->
+                <aside class="col-12 col-md-12" style="position: relative;">
+				    <div class="sidebar box-outer custom-radius">
+						<!-- My photo -->
+						<div class="row">
+						<div class="sidebar__base-info col-lg-5 col-md-6 col-xs-12">
+					    	<!-- <figure class="avatar-box"> -->
+                                <img style="border-radius: 20%;" class="avatar-box" src="assets/img/cv.jpg" alt="Huỳnh Nguyễn Khánh Vân">
+						    <!-- </figure> -->
 
-	    <div class="container gutter-top">
-		    <!-- Header -->
-        <header class="header box">
-			    <div class="header__left">
-				    <div class="header__photo">
-					    <img class="header__photo-img" src="assets\img\cv.jpg" alt="Trần Duy Quang">
-					</div>
-					<div class="header__base-info">
-					    <h4 class="title titl--h4">Trần Duy Quang</h4>
-						<div class="status">FullStack Developer</div>
-						<ul class="header__social">
-						    <li><a href="https://www.facebook.com/bww2205"><i class="font-icon icon-facebook1"></i></a></li>
-						    <li><a href="https://www.twitter.com/bww2205"><i class="font-icon icon-twitter1"></i></a></li>
-							<li><a href="https://www.instagram.com/bww2205"><i class="font-icon icon-instagram1"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="header__right">
-				    <ul class="header__contact">
-					    <li><span class="overhead">Email</span>tranduyquang2205@gmail.com</li>
-						<li><span class="overhead">Phone</span>(+84) 789439832</li>
-					</ul>
-					<ul class="header__contact">
-					    <li><span class="overhead">Birthday</span>22/05/2000</li>
-						<li><span class="overhead">Location</span>Ho Chi Minh City, Viet Nam</li>
-					</ul>
-				</div>
-			</header>
-
-		    <div class="row sticky-parent">
-			    <!-- Sidebar nav -->
-                <aside class="col-12 col-md-12 col-lg-2">
-				    <div class="sidebar box sticky-column">
-	                    <ul class="nav js-tabs">
-                            <li class="nav__item"><a class="active" href="#about-tab"><i class="icon-user"></i>About</a></li>
-							<li class="nav__item"><a href="#resume-tab"><i class="icon-file-text"></i>Resume</a></li>
-                            <li class="nav__item"><a href="#works-tab"><i class="icon-codesandbox"></i>Projects</a></li>
-                        </ul>
-					</div>
-		        </aside>
-
-				<!-- Content -->
-		        <div class="col-12 col-md-12 col-lg-10">
-				    <div class="box box-content" id="content">
-			            <div class="content">
-						    <!-- ABOUT -->
-						    <div id="about-tab" class="tabcontent active">
-                                <!-- <div class="pb-0 pb-sm-2">
-		                            <h1 class="title title--h1 first-title title__separate">About Me</h1>
-						            <p>Hi Now im a Student at Ho Chi Minh City University Of Technology(HCMUT).</p>
-                        <p>I always thrive for newest technology and learn as much as i can to improve myself and skills</p>
-                        <p>My passionate is about development and AI/ML/DL so my aim in the future is becoming a Data Science or also Software Developer.</p>
-					            </div> -->
-
-								<!-- What -->
-								<div class="mt-1">
-									<h2 class="title title--h3">What I'm  Doing</h2>
-									<div class="row">
-										<!-- Case Item -->
-										<div class="col-12 col-lg-6">
-											<div class="case-item">
-												<img class="case-item__icon" src="assets\icons\icon-design.svg" alt="">
-												<div>
-													<h3 class="title title--h4">Web Design</h3>
-													<p class="case-item__caption">HTML5&CSS3</p>
-												</div>
-											</div>
-										</div>
-
-										<!-- Case Item -->
-										<div class="col-12 col-lg-6">
-											<div class="case-item">
-												<img class="case-item__icon" src="assets\icons\icon-dev.svg" alt="">
-												<div>
-													<h3 class="title title--h4">Web Development</h3>
-													<p class="case-item__caption">Laravel, Nodejs, Flask.</p>
-												</div>
-											</div>
-										</div>
-
-										<!-- Case Item -->
-										<div class="col-12 col-lg-6">
-											<div class="case-item">
-												<img class="case-item__icon" src="assets\icons\icon-app.svg" alt="">
-												<div>
-													<h3 class="title title--h4">Mobile Apps</h3>
-													<p class="case-item__caption">Flutter.</p>
-												</div>
-										   </div>
-										</div>
-
-										<!-- Case Item -->
-										<div class="col-12 col-lg-6">
-											<div class="case-item">
-												<img class="case-item__icon" src="assets\icons\icon-data.svg" alt="">
-												<div>
-													<h3 class="title title--h4">Data Science</h3>
-													<p class="case-item__caption">Machine Learning/AI.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+						    <div class="">
+						        <h3 class="title title--h3 sidebar__name" style="font-weight: 600;">Trần Duy Quang</h3>
+							    <span style="color:rgba(160, 160, 160, 1);font-weight: 600;">AI Engineer</span>
 						    </div>
-
-							<!-- RESUME -->
-							<div id="resume-tab" class="tabcontent">
-                                <div class="pb-2">
-		                            <h1 class="title title--h1 first-title title__separate">Resume</h1>
-					            </div>
-
-								<!-- Experience -->
-                <div class="row">
-    							<div class="col-12">
-    								<h2 class="title title--h3"><img class="title-icon" src="assets\icons\icon-education.svg" alt=""> Education</h2>
-    								<div class="timeline">
-
-										<!-- Item -->
-    									<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">Duc Linh High School</h5>
-    										<span class="timeline__period">2015 — 2018</span>
-    										<p class="timeline__description"></p>
-    									</article>
-    									<!-- Item -->
-    									<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">Ho Chi Minh City University Of Technology(HCMUT)</h5>
-    										<span class="timeline__period">2018 — 2022</span>
-    										<p class="timeline__description">Studied Computer Science Engineering at Ho Chi Minh City University Of Technology(HCMUT).</p>
-    									</article>
-
-										<!-- Item -->
-    									<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">Ho Chi Minh City University Of Technology(HCMUT)</h5>
-    										<span class="timeline__period">2019 — 2022</span>
-    										<p class="timeline__description">Studying Computer Science Master at Ho Chi Minh City University Of Technology(HCMUT).</p>
-    									</article>
-
-    									
-    								</div>
-    							</div>
-
-    							<div class="col-12">
-    								<h2 class="title title--h3"><img class="title-icon" src="assets\icons\icon-experience.svg" alt=""> Experience</h2>
-    								<div class="timeline">
-
-										
-    									
-
-										
-
-    									
-
-    									<!-- Item -->
-    									<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">Freelancer</h5>
-    										<span class="timeline__period">2017 — Present</span>
-    										<p class="timeline__description">Freelancer about Web Application and Mobile Application.</p>
-    									</article>
-
-										<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">AI Engineer</h5>
-    										<span class="timeline__period">01/2020 — 12/2020</span>
-    										<p class="timeline__description">AI Engineer at <a href="https://deephub.vn/">DeepHub AI solution</a>.</p>
-    									</article>
-
-										<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">Laravel FullStack Dev</h5>
-    										<span class="timeline__period">01/2021 — 06/2021</span>
-    										<p class="timeline__description">Laravel FullStack Dev at <a href="http://enpii.com/">Enpii</a>.</p>
-    									</article>
-
-
-										<!-- Item -->
-										<article class="timeline__item">
-											<h5 class="title title--h5 timeline__title">Nestjs Backend Dev</h5>
-											<span class="timeline__period">06/2021 — 11/2021</span>
-											<p class="timeline__description">Nestjs Backend Dev at <a href="http://geekup.vn/">GeepUp</a>.</p>
-										</article>
-										<!-- Item -->
-										<article class="timeline__item">
-    									    <h5 class="title title--h5 timeline__title">AI Engineer</h5>
-    										<span class="timeline__period">11/2021 — Present</span>
-    										<p class="timeline__description">AI Engineer at <a href="https://tmtco.asia/">TMT Solutions</a>.</p>
-    									</article>
-    								</div>
-    							</div>
-    						</div>
-
-								<!-- Skills -->
-                <div class="row">
-    							<div class="col-12">
-    						        <h2 class="title title--h3">My Skills</h2>
-    								<div class="box box__border">
-    									<!-- Progress -->
-    									<div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-    											<div class="progress-text"><span>NodeJS</span><span></span></div>
-    										</div>
-    										<div class="progress-text"><span>NodeJS</span></div>
-                                        </div>
-
-                                        <div class="progress">
-                                                              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      											<div class="progress-text"><span>Python Flask</span><span></span></div>
-                      										</div>
-                      										<div class="progress-text"><span>Python Flask</span></div>
-                                                          </div>
-                                                          <div class="progress">
-                                                                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                                              <div class="progress-text"><span>PHP Laravel</span><span></span></div>
-                                                            </div>
-                                                            <div class="progress-text"><span>PHP Laravel</span></div>
-                                                                            </div>
-                                                                            <div class="progress">
-                                                                                                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                                                                <div class="progress-text"><span>HTML5&CSS3</span><span></span></div>
-                                                                              </div>
-                                                                              <div class="progress-text"><span>HTML5&CSS3</span></div>
-                                                                                              </div>
-
-    								</div>
-                                </div>
-    						</div>
-							</div>
-
-							<!-- WORKS -->
-							<div id="works-tab" class="tabcontent">
-                                <div class="pb-2">
-		                            <h1 class="title title--h1 first-title title__separate">My projects</h1>
-					            </div>
-I have done many projects and i'll update it soon. So sorry a'bout that
-</br>
-This is my Github: <a href="https://github.com/tranduyquang2205">https://github.com/tranduyquang2205</a>
-							</div>
+							
 						</div>
+						
+						<div class="sidebar__additional-info col-lg-7 col-md-6 col-xs-12">
+							
+		                    <ul class="details-info">
+							    <!-- Email -->
+							    <li class="details-info__item">
+							        <span class="box icon-box"><i class="font-icon icon-envelope"></i></span>
+								    <div class="contacts-block__info">
+									    <span class="overhead">Email</span>
+									    <a class="text-overflow" href="mailto: tranduyquang2205@gmail.com" title="tranduyquang2205@gmail.com"> tranduyquang2205@gmail.com </a>
+								    </div>
+							    </li>
+							    <!-- Phone -->
+						 	    <li class="details-info__item">
+								    <span class="box icon-box"><i class="font-icon icon-phone"></i></span>
+								    <div class="contacts-block__info">
+									    <span class="overhead">Phone</span>
+							            <span class="text-overflow" title="0886438795">0886438795</span>
+								    </div>	
+							    </li>
+								<!-- Birthday -->
+					            <li class="details-info__item">
+								    <span class="box icon-box"><i class="font-icon icon-calendar"></i></span>
+								    <div class="contacts-block__info">
+									    <span class="overhead">Birthday</span>
+							            <span class="text-overflow" title=" 22/05/2000"> 22/05/2000</span>
+								    </div>
+							    </li>
+								<!-- Location -->
+						        <li class="details-info__item">
+								    <span class="box icon-box"><i class="font-icon icon-location"></i></span>
+								    <div class="contacts-block__info">
+									    <span class="overhead">Location</span>
+									    <span class="text-overflow" title="Ho Chi Minh City ">Ho Chi Minh City </span>
+								    </div>
+							    </li>
+					        </ul>
+						    <div class="separation d-xl-none"></div>
+						</div>	
 					</div>
-					<!-- Footer -->
-					<footer class="footer">©tranduyquang2205</footer>
-		        </div>
-			</div>
-		</div>
+					</div>	
+		        </aside>
+		        
+				<!-- Content -->
+		        <div class="col-12 col-md-12 col-xl-12">
+				    <div class="box-outer">
+
+						<div class="resume-frame48096361">
+							<div class="resume-frame48096358">
+							  <span class="resume-text26 titlelarge">
+								<span><strong>About Me</strong></span>
+							  </span>
+							  <span class="resume-text28 bodylarge">
+								<span>
+									A funny and introverted person, I am looking forward to working and developing myself in professional, diverse, and flat organizational companies.
+								</span>
+							  </span>
+							  
+							</div>
+							<div  class="separation"></div>
+							<div class="resume-frame48096359">
+								<span class="resume-text53 titlelarge">
+								  <span><strong>Education</strong></span>
+								</span>
+								<div class="resume-frame480963561">
+								  <div class="resume-v-pof-marketing1">
+									<div class="resume-frame420483">
+									  <span class="resume-text55 titlemedium">
+										<span><strong>Duc Linh High School</strong></span>
+									  </span>
+									  <span class="resume-text57 titlesmall">
+										<span>2015 — 2018</span>
+									  </span>
+									</div>
+									<span class="resume-text59 bodylarge">
+									  <span>
+										University of Social Sciences and Humanities, Vietnam
+										National University (USSH-VNU)
+									  </span>
+									</span>
+								  </div>
+								  <div class="resume-frame480963551">
+									<div class="resume-frame420484">
+									  <span class="resume-text61 titlemedium">
+										<span><strong>Ho Chi Minh City University Of Technology(HCMUT)</strong></span>
+									  </span>
+									  <span class="resume-text63 titlesmall">
+										<span>2018 — 2022</span>
+									  </span>
+									</div>
+									<span class="resume-text65 bodylarge">
+									  <span>Studied <strong>Computer Science Engineering</strong> at Ho Chi Minh City University Of Technology(HCMUT).</span>
+									</span>
+								  </div>
+								  <div class="resume-frame480963551">
+									  <div class="resume-frame420484">
+										<span class="resume-text61 titlemedium">
+										  <span><strong>Ho Chi Minh City University Of Technology(HCMUT)</strong></span>
+										</span>
+										<span class="resume-text63 titlesmall">
+										  <span>2021 — Present</span>
+										</span>
+									  </div>
+									  <span class="resume-text65 bodylarge">
+										<span>Studying <strong>Computer Science Master</strong> at Ho Chi Minh City University Of Technology(HCMUT).</span>
+									  </span>
+									</div>
+								  
+								</div>
+							  </div>
+							  <div  class="separation"></div>
+							<div class="resume-frame48096357">
+							  <span class="resume-text30 titlelarge">
+								<span><strong>Work Experience</strong></span>
+							  </span>
+							  <div class="resume-frame48096356">
+								<div class="resume-v-pof-marketing">
+								  <div class="resume-frame42048">
+									<span class="resume-text32 titlemedium">
+									  <span><strong>Freelancer</strong></span>
+									</span>
+									<span class="resume-text34 titlesmall">
+									  <span>2017 — Present</span>
+									</span>
+								  </div>
+								  <span class="resume-text36 bodylarge">
+									<span>
+										Freelancer about Web Application and Mobile Application.
+									</span>
+								  </span>
+								</div>
+								<div class="resume-frame48096355">
+								  <div class="resume-frame420481">
+									<span class="resume-text38 titlemedium">
+									  <span><strong>AI Intern</strong></span>
+									</span>
+									<span class="resume-text40 titlesmall">
+									  <span>01/2020 — 12/2020</span>
+									</span>
+								  </div>
+								  <span class="resume-text36 bodylarge">
+									<span>
+										AI Engineer at <a href="https://deephub.vn/">DeepHub AI solution</a>.
+									</span>
+								  </span>
+								</div>								
+								<div class="resume-v-pof-marketing">
+									<div class="resume-frame42048">
+									  <span class="resume-text32 titlemedium">
+										<span><strong>Laravel FullStack Dev</strong></span>
+									  </span>
+									  <span class="resume-text34 titlesmall">
+										<span>01/2021 — 06/2021</span>
+									  </span>
+									</div>
+									<span class="resume-text36 bodylarge">
+									  <span>
+										Laravel FullStack Dev at <a href="http://enpii.com/">Enpii</a>.
+									  </span>
+									</span>
+								  </div>
+								  <div class="resume-v-pof-marketing">
+									<div class="resume-frame42048">
+									  <span class="resume-text32 titlemedium">
+										<span><strong>Nestjs Backend Dev</strong></span>
+									  </span>
+									  <span class="resume-text34 titlesmall">
+										<span>06/2021 — 11/2021</span>
+									  </span>
+									</div>
+									<span class="resume-text36 bodylarge">
+									  <span>
+										Nestjs Backend Dev at <a href="http://geekup.vn/">GeekUp</a>.
+									  </span>
+									</span>
+								  </div>
+								  <div class="resume-v-pof-marketing">
+									<div class="resume-frame42048">
+									  <span class="resume-text32 titlemedium">
+										<span><strong>AI Engineer</strong></span>
+									  </span>
+									  <span class="resume-text34 titlesmall">
+										<span>11/2021 — 07/2023</span>
+									  </span>
+									</div>
+									<span class="resume-text36 bodylarge">
+									  <span>
+										ASR/NLP AI Engineer/Researcher  at <a href="https://tmtco.asia/">TMT CO</a>.
+									  </span>
+									</span>
+								  </div>
+								
+								  
+							  </div>
+							</div>
+							<div  class="separation"></div>
+							
+							<div class="resume-frame48096360">
+							  <span class="resume-text73 titlelarge">
+								<span><strong>My Skills</strong></span>
+							  </span>
+							</div>
+							<div  class="separation"></div>
+							<div class="resume-frame48096360">
+								<span class="resume-text73 titlelarge">
+								  <span><strong>Engineering</strong></span>
+								</span>
+							  <div class="resume-frame480963611">
+								<div id="about-tab" class="tabcontent active" style="">
+									<!-- <div class="pb-0 pb-sm-2">
+										<h1 class="title title--h1 first-title title__separate">About Me</h1>
+										<p>Hi Now im a Student at Ho Chi Minh City University Of Technology(HCMUT).</p>
+							<p>I always thrive for newest technology and learn as much as i can to improve myself and skills</p>
+							<p>My passionate is about development and AI/ML/DL so my aim in the future is becoming a Data Science or also Software Developer.</p>
+									</div> -->
+	
+									<!-- What -->
+									<div class="mt-1">
+										<span class="resume-text32 titlemedium">
+											<span><strong>Front-end</strong></span>
+										  </span>
+											<ul>
+											  <li>4 years of exp</li>
+											  <li>Framework (Reactjs, Vuejs,...)</li>
+											  <li>Thành thạo HTML,CSS,JS,Jquery,...</li>
+											  <li>Be Able to design professional interfaces, logos, and banners</li>
+											  <li>Proficient in design software (photoshop, figma, adobe, ...)</li>
+											</ul>
+											<span class="resume-text32 titlemedium">
+												<span><strong>Back-end</strong></span>
+											  </span>
+											<ul>
+											  <li>3 years of exp</li>
+											  <li>Proficient in PHP, Js, Python, C++,..</li>
+											  <li>Framework(Laravel,Nestjs, Nodejs,Django,Flask,...)</li>
+											  <li>Design microservices, ResfulApi, Websockets,...</li>
+											  <li>Proficient in working with databases like Mysql, postgresql, mongodb</li>
+											  <li>Experienced in designing high-performance, structurally tight systems</li>
+											  <li>Experience working with and connecting with 3rd party APIs and SDKs such as payments, social networks,...</li>
+											  <li>Have many skills to catch api requests, scrape/crawl data</li>
+											</ul>
+											<span class="resume-text32 titlemedium">
+												<span><strong>Mobile</strong></span>
+											  </span>
+											<ul>
+											  <li>1 years of exp</li>
+											  <li>Framework (Flutter, React Native)</li>
+											</ul>
+											<span class="resume-text32 titlemedium">
+												<span><strong>Voip-dev</strong></span>
+											  </span>
+											<ul>
+												<li>1 years of exp</li>
+												<li>Ability to work related to call center system, voip dev</li>
+											  <li>Have experience in working with media server</li>
+											</ul>
+											</div>
+								</div>
+							  </div>
+							</div>
+							<div  class="separation"></div>
+							<div class="resume-frame48096360">
+								<span class="resume-text73 titlelarge">
+								  <span><strong>Machine Learning/AI</strong></span>
+								</span>
+							  <div class="resume-frame480963611">
+								<div id="about-tab" class="tabcontent active" style="">
+									<!-- <div class="pb-0 pb-sm-2">
+										<h1 class="title title--h1 first-title title__separate">About Me</h1>
+										<p>Hi Now im a Student at Ho Chi Minh City University Of Technology(HCMUT).</p>
+							<p>I always thrive for newest technology and learn as much as i can to improve myself and skills</p>
+							<p>My passionate is about development and AI/ML/DL so my aim in the future is becoming a Data Science or also Software Developer.</p>
+									</div> -->
+	
+									<!-- What -->
+									<div class="mt-1">
+										<span class="resume-text32 titlemedium">
+												<span><strong>Image processing</strong></span>
+											  </span>
+											<ul>
+											<li>6 months of exp</li>
+											<li>Data Analysis</li>	
+											  <li>Face and object detection</li>
+											  <li>OCR, image to text</li>
+											</ul>
+											<span class="resume-text32 titlemedium">
+												<span><strong>Automatic Speech Recognition(ASR)</strong></span>
+											  </span>
+											<ul>
+												<li>2 years of exp</li>
+												<li>Data Analysis</li>	
+											  <li>Audio,speech data processing</li>
+											  <li>Have experience working and deploying models Speech to text, Text to speech</li>
+											  <li>Audio data processing skills with media server</li>
+											  
+								
+									</ul>
+									<span class="resume-text32 titlemedium">
+										<span><strong>NLP</strong></span>
+									  </span>
+									<ul>
+										<li>3 months of exp</li>
+									  <li>Have experience working on preprocessing, postprocessing for STT and TTS</li>
+									  <li>Have experience working on normalization, segmentation</li>	
+						
+							</ul>
+									
+											</div>
+								</div>
+							  </div>
+							</div>
+						  </div>
+					    
+					</div>
+		        </div><!-- Content -->
+			</div><!-- sticky-parent -->
+		</div><!-- container -->
     </main>
 
-    <div class="back-to-top"></div>
-
-    <!-- SVG masks -->
-    <svg class="svg-defs">
-        <clippath id="avatar-box">
-            <path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z"></path>
-        </clippath>
-        <clippath id="avatar-hexagon">
-             <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"></path>
-        </clippath>
-    </svg>
-
+    <div class="back-to-top" style="display: none;"></div>	
 
 	<!-- JavaScripts -->
-	<script src="assets\js\jquery-3.4.1.min.js"></script>
-	<script src="assets\js\plugins.min.js"></script>
-    <script src="assets\js\common.js"></script>
+	<script src="https://art-template.ru/vcard4/assets/js/jquery-3.4.1.min.js"></script>
+	<script src="https://art-template.ru/vcard4/assets/js/plugins.min.js"></script>
+    <script src="https://art-template.ru/vcard4/assets/js/common.js"></script>
 
-	<!-- Mapbox init -->
-	<script src="assets\js\mapbox.init.js"></script>
 
-	<script src="assets\demo\plugins-demo.js"></script>
-</body>
-</html>
+</body></html>
